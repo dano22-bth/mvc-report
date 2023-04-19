@@ -1,0 +1,21 @@
+.combination {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--combination-color);
+    text-align: center;
+}
+
+.dice-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 0;
+    padding: 1rem 0;
+}
+
+.dice {
+    font-size: 168px;
+    color: var(--dice-color);
+    line-height: 0;
+}

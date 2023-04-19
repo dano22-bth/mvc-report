@@ -1,0 +1,20 @@
+.two-col-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.one-to-one {
+    grid-template-columns: 1fr 1fr;
+}
+
+.one-to-two {
+    grid-template-columns: 1fr 2fr;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}

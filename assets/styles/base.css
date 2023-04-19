@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-color: #333333;
+    --nav-link-color: #A3B364;
+    --mobile-nav-background: #333333;
+    --header-background: #FFFFFF;
+    --header-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    --body-background: #F2F5EF;
+    --button-background: #72895B;
+    --button-color: #FFFFFF;
+    --dice-color: #A3B364;
+    --combination-color: #72895B;
+}
+
+body {
+    background-color: var(--body-background);
+    font-family: "Roboto", sans-serif;
+    color: var(--font-color);
+}
+
+main {
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 864px;
+    padding: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    padding: 1rem 2rem;
+}
+
+.card {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: var(--header-shadow);
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--button-background);
+    color: var(--button-color);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

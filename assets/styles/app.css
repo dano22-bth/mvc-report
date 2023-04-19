@@ -1,0 +1,29 @@
+/* Normalize CSS */
+@import url(../../node_modules/normalize.css/normalize.css);
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Font Awesome */
+@import url(../../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+
+/* Base styling */
+@import url(base.css);
+
+/* Header styling */
+@import url(header.css);
+
+/* Nav styling */
+@import url(nav.css);
+
+/* Layout styling */
+@import url(layout.css);
+
+/* Report styling */
+@import url(report.css);
+
+/* Lucky styling */
+@import url(lucky.css);
+
+/* Responsive styling */
+@import url(responsive.css);
