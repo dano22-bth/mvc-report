@@ -1,0 +1,13 @@
+header {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-background;
+    box-shadow: $header-shadow;
+}
+
+h1 a {
+    text-decoration: none;
+    color: $font-color;
+}

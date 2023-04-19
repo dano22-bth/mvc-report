@@ -1,0 +1,29 @@
+{% extends "base.html.twig" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="two-col-grid one-to-one">
+            <figure class="card"><img src="{{ asset('img/symfony.png') }}" alt="bild på mig"></figure>
+
+            <article class="card">
+                <h2>{{ page_title }}</h2>
+                
+                <p>{{ text_content }}</p>
+            </article>
+
+            <div class="card">
+                <a class="button" href="{{ course_repo }}">
+                    <i class="fa-brands fa-github"></i> Kursens GitHub repo
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="button" href="{{ student_repo }}">
+                    <i class="fa-brands fa-github"></i> Mitt GitHub repo
+                </a>
+            </div>
+        </div>
+    </main>
+{% endblock %}

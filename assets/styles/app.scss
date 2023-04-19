@@ -1,0 +1,29 @@
+/* Normalize CSS */
+@import '~normalize.css/normalize.css';
+
+/* Google Fonts */
+@import 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+
+/* Porject variables */
+@import 'variables.scss';
+
+/* Base styling */
+@import 'base.scss';
+
+/* Header styling */
+@import 'header.scss';
+
+/* Nav styling */
+@import 'nav.scss';
+
+/* Layout styling */
+@import 'layout.scss';
+
+/* Report styling */
+@import 'report.scss';
+
+/* Lucky styling */
+@import 'lucky.scss';
+
+/* Responsive styling */
+@import 'responsive.scss';

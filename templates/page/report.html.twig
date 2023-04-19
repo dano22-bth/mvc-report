@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="two-col-grid one-to-two">
+            <ul class="kmom-links">
+                <li class="card"><a class="button" href="#kmom01">kmom01</a></li>
+                <li class="card"><a class="button" href="#kmom02">kmom02</a></li>
+                <li class="card"><a class="button" href="#kmom03">kmom03</a></li>
+                <li class="card"><a class="button" href="#kmom04">kmom04</a></li>
+                <li class="card"><a class="button" href="#kmom05">kmom05</a></li>
+                <li class="card"><a class="button" href="#kmom06">kmom06</a></li>
+                <li class="card"><a class="button" href="#kmom07-10">kmom07/10</a></li>
+            </ul>
+
+            <article id="kmom01" class="card">
+                <h2>kmom01</h2>
+                <p>När det gäller mina tidigare förkunskaper och erfarenheter kring objektorienterad programmering så är de till stor del begränsade till det som jag har lärt mig på det här programmet och det som jag själv har snappat upp via YouTube och liknande. Jag läste ett år programvaruteknik på Miun tidigare, men vi hann precis bara börja med objektorientering innan jag bytte skola till BTH.</p>
+                <p>En klass är en form av "ritning" som man använder för att skapa instanser av objekt. Klasser och objekt är modulär kod som har till syfte att "kapsla in" relaterade attribut, data och funktionalitet. För att skapa en klass i PHP använder man nyckelordet <code>class</code>, följt av namnet på klassen man vill skapa tillsammans med de sedvanliga "måsvingarna". Man kan sedan instantiera ett objekt utifrån klassen med hjälp av nyckelordet <code>new</code>. Objektet "ärver" vissa egenskaper från klassen men är i grunden en fristående entitet. Man kan skapa hur många objekt som helst utifrån en klass som alla är likadana men ändå distinkta från varandra. En klass innehåller ofta en speciell metod (funktion) som kallas en <code>constructor</code>. Det är en metod som exekveras automatiskt i samband med att man instantierar ett nytt objekt av klassen och som bland annat används för att bestämma ett objekts initiala egenskaper. I PHP heter constructorn alltid <code>__construct()</code> och deklareras som en publik funktion inom klassen.</p>
+                <p>Kodbasen för uppgiften <code>me/report</code> följer basically ett något förenklat model-view-controller upplägg (utan modellen). Data som används för att fylla ut <code>views</code> och <code>templates</code> är till stor del hårdkodad i sidkontrollerna istället för att hämtas från en databas. Men koden använder routes, views, controllers, en template-engine osv. och ramverket Symfony innehåller en hel del avancerad funktionalitet som både förenklar kodandet samtidigt som det kräver att man lär sig nya arbetssätt och tar tills sig ny kunskap. Jag uppfattar detta som en bra början.</p>
+                <p>"PHP The Right Way" erbjuder ett omfattande helhetsperspektiv på modern praxis gällande utveckling med PHP och täcker ett stort antal områden. Jag har tittat övergripande på dokumentet men inte gjort någon djupdykning. Några delar som är extra värdefulla/intressanta för mig personligen och som jag skulle vilja lära mig mer om är bland annat säkerhet, dependency injection, server- och databasconfiguration med mera. Det här är områden där jag upplever att det finns luckor i min kunskap.</p>
+                <p>TIL hur man skapar routes och jobbar med views, controllers och templates i ramverket Symfony.</p>
+            </article>
+        </div>
+    </main>
+{% endblock %}

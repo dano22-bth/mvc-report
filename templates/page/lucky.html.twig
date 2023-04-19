@@ -1,0 +1,25 @@
+{% extends "base.html.twig" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="dice-row">
+            <div class="dice"><i class="fa-solid fa-square"></i></div>
+            <div class="dice"><i class="fa-solid fa-square"></i></div>
+            <div class="dice"><i class="fa-solid fa-square"></i></div>
+            <div class="dice"><i class="fa-solid fa-square"></i></div>
+            <div class="dice"><i class="fa-solid fa-square"></i></div>
+        </div>
+
+        <div class="two-col-grid one-to-one">
+            <a class="card button" href="{{ path('lucky_roll') }}">Roll</a>
+            <a class="card button" href="{{ path('lucky_reset') }}">Reset</a>
+        </div>
+
+        <div class="flex-row space-between">
+            <h2>Roll the dice to start</h2>
+            <h2>High score: {{ high_score }}</h2>
+        </div>
+    </main>
+{% endblock %}

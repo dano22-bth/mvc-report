@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="card two-col-grid one-to-one">
+            <img src="{{ asset('img/me.jpg') }}" alt="bild på mig">
+
+            <article>
+                <h2>{{ page_title }}</h2>
+                
+                <p>{{ text_content }}</p>
+            </article>
+        </div>
+    </main>
+{% endblock %}
